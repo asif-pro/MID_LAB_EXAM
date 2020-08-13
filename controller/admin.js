@@ -9,4 +9,9 @@ router.get("/", function (req, res) {
   }
 });
 
+
+router.post("/AddEmployee", function(req, res){
+	res.render('AddEmployee');
+});
+
 module.exports = router;
